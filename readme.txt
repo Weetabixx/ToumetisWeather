@@ -2,6 +2,7 @@ prerequisites:
 
 python 3.5.x
 django 2.0.5
+node.js
 
 
 first run:

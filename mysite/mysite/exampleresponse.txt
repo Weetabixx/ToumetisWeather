@@ -1,0 +1,61 @@
+{"consolidated_weather":
+    [{  "id":6424074611851264,
+        "weather_state_name":"Light Cloud",
+        "weather_state_abbr":"lc",
+        "wind_direction_compass":"SW",
+        "created":"2018-05-08T11:35:02.235640Z",
+        "applicable_date":"2018-05-08",
+        "min_temp":12.3775,
+        "max_temp":26.015,
+        "the_temp":25.375,
+        "wind_speed":5.758075681285294,
+        "wind_direction":229.4547756220203,
+        "air_pressure":1011.4100000000001,
+        "humidity":49,
+        "visibility":8.405598802990536,
+        "predictability":70
+      },
+      { "id":6086084576411648,
+        "weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"WSW","created":"2018-05-08T11:35:02.445370Z","applicable_date":"2018-05-09","min_temp":10.5875,"max_temp":21.15,"the_temp":19.525,"wind_speed":5.421084124584427,"wind_direction":237.63010698188884,"air_pressure":1011.475,"humidity":49,"visibility":11.52985315755985,"predictability":71
+      },
+      { "id":6083816833679360,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"WNW","created":"2018-05-08T11:35:02.636380Z","applicable_date":"2018-05-10","min_temp":8.504999999999999,"max_temp":16.814999999999998,"the_temp":15.879999999999999,"wind_speed":8.767990127889128,"wind_direction":288.1356720306533,"air_pressure":1019.28,"humidity":49,"visibility":14.536357671200191,"predictability":71
+      },
+      { "id":5889897013444608,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"SSE","created":"2018-05-08T11:35:08.701960Z","applicable_date":"2018-05-11","min_temp":8.8375,"max_temp":18.47,"the_temp":17.54,"wind_speed":9.677943073637955,"wind_direction":166.97640449307238,"air_pressure":1019.71,"humidity":44,"visibility":14.610611528672552,"predictability":71
+      },
+      { "id":6149356960874496,"weather_state_name":"Showers","weather_state_abbr":"s","wind_direction_compass":"SW","created":"2018-05-08T11:35:05.776880Z","applicable_date":"2018-05-12","min_temp":10.045000000000002,"max_temp":15.9575,"the_temp":14.665,"wind_speed":7.097172370587767,"wind_direction":221.5313371826548,"air_pressure":1016.53,"humidity":56,"visibility":12.495774675892786,"predictability":73
+      },
+      { "id":6493515643092992,"weather_state_name":"Light Cloud","weather_state_abbr":"lc","wind_direction_compass":"WSW","created":"2018-05-08T11:35:05.395480Z","applicable_date":"2018-05-13","min_temp":8.365,"max_temp":15.8075,"the_temp":13.87,"wind_speed":7.008472255362019,"wind_direction":243.30085917978732,"air_pressure":1021.04,"humidity":59,"visibility":9.997862483098704,"predictability":70
+      }
+    ],
+    "time":"2018-05-08T13:18:42.369630+01:00",
+    "sun_rise":"2018-05-08T05:20:05.210585+01:00",
+    "sun_set":"2018-05-08T20:34:57.624248+01:00",
+    "timezone_name":"LMT",
+    "parent":{  "title":"England",
+                "location_type":"Region / State / Province",
+                "woeid":24554868,
+                "latt_long":"52.883560,-1.974060"
+             },
+    "sources":[{"title":"BBC",
+                "slug":"bbc",
+                "url":"http://www.bbc.co.uk/weather/",
+                "crawl_rate":180
+                },
+                {"title":"Forecast.io",
+                "slug":"forecast-io",
+                "url":"http://forecast.io/","crawl_rate":480
+                },
+                {"title":"HAMweather","slug":"hamweather","url":"http://www.hamweather.com/","crawl_rate":360},
+                {"title":"Met Office","slug":"met-office","url":"http://www.metoffice.gov.uk/","crawl_rate":180},
+                {"title":"OpenWeatherMap","slug":"openweathermap","url":"http://openweathermap.org/","crawl_rate":360},
+                {"title":"Weather Underground","slug":"wunderground","url":"https://www.wunderground.com/?apiref=fc30dc3cd224e19b","crawl_rate":720},
+                {"title":"World Weather Online","slug":"world-weather-online","url":"http://www.worldweatheronline.com/","crawl_rate":360},
+                {"title":"Yahoo","slug":"yahoo","url":"http://weather.yahoo.com/","crawl_rate":180}
+               ],
+    "title":"London",
+    "location_type":"City",
+    "woeid":44418,
+    "latt_long":"51.506321,-0.12714",
+    "timezone":"Europe/London",
+    "dataProvider":"https://www.metaweather.com"
+}
