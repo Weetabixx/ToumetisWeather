@@ -5,8 +5,10 @@
 </p>
   <div>
     <label>location:
-      <input [(ngModel)]="weather.location" placeholder="location">
+      <input [(ngModel)]="weather.location" placeholder="location" (input)="onUpdate($event)">
     </label>
   </div>
+
+  <p>current temperature: {{woeid}}</p>
   
 
