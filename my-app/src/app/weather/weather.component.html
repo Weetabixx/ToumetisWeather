@@ -1,14 +1,16 @@
-<p>
-  weather works!
-  {{weather.location}}
-  {{weather.temperature}}
-</p>
+
   <div>
     <label>location:
-      <input [(ngModel)]="weather.location" placeholder="location" (input)="onUpdate($event)">
+      <input [(ngModel)]="weather.location" placeholder="location" (focusout)="focusOutFunction()">
     </label>
   </div>
 
-  <p>current temperature: {{woeid}}</p>
-  
 
+
+  <p>Current temperature: {{weather.day0avg}}</p>
+  <p>Current Weather: {{weather.weather}}</p>
+  <p>Sundown: {{weather.sundownhours}}</p>
+
+<div [chart]="chart"></div>
+
+<div [chart]="mapChart"></div>

@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
+import { ChartModule } from 'angular-highcharts';
+import highmaps from 'highcharts/modules/map.src';
 
 
 import { AppComponent } from './app.component';
@@ -16,9 +17,10 @@ import { WeatherComponent } from './weather/weather.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ChartModule
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
